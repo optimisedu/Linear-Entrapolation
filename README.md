@@ -3,13 +3,13 @@ Canvas context sketch Linear Entrapolation
 
 Using aspects of https://www.npmjs.com/package/canvas-sketch-cli - Canvas Sketch Command Line Interface
 
-#Requirements:
+# Requirements:
 A recent version of node.js
 
-#Included:
+# Included:
 A randomised example of a linear plot, showing random exponential growth, while reducing opacity as the x and y values increase
 
-#To start
+# To start
 run 
 *npm i*
 *npm run dev* for hot reloading of the JS source folder
