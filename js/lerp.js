@@ -30,7 +30,7 @@ const sketch = () => {
   const points = createGrid(); // global scope - different points constant
 
   return ({ context, width, height, margin }) => {
-    margin = Math.floor(Math.random() * 75 + 1);
+    margin = Math.floor(Math.random() * 75 + 1); // set margin = 50 to remove the exponential randomness to plotting and keep the slow linear opacity fade
     function generateRandomColor() {
       const hue = lerp(1, 180, 0.8);
       const sat = 100 + "%";
