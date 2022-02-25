@@ -7,7 +7,7 @@ Using aspects of https://www.npmjs.com/package/canvas-sketch-cli - Canvas Sketch
 A recent version of node.js
 
 # Included:
-A randomised example of a linear plot, showing random exponential growth, while reducing opacity as the x and y values increase
+A randomised example of a linear plot, showing random exponential growth, while reducing opacity as the x and y values increase. E
 
 # To start
 - run 
