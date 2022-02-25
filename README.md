@@ -1,7 +1,7 @@
 # Linear-Entrapolation:
 Canvas context sketch Linear Entrapolation 
 
-Using aspects of <a href="https://www.npmjs.com/package/canvas-sketch-cli>Canvas Sketch Command Line Interface</a>
+Using aspects of https://www.npmjs.com/package/canvas-sketch-cli - Canvas Sketch Command Line Interface
 
 #Requirements:
 A recent version of node.js
