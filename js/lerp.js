@@ -38,11 +38,11 @@ const sketch = () => {
       const a = lerp(0, 1, 0.8);
       return "hsl(" + hue + "deg, " + sat + ", " + lgt + "," + a + ")";
     }
-    //generate a random int based margin for the linear entrapolation to work work off
+    //generate a random int based margin for the linear extrapolation to work work off
     context.fillStyle = "#fff";
     context.fillRect(0, 0, width, height);
     points.forEach(([u, v]) => {
-      const x = lerp(margin, (width += margin / 10), u); //visualise random exponential linear entrapolation
+      const x = lerp(margin, (width += margin / 10), u); //visualise random exponential linear extrapolation
       const y = lerp(margin, (width += margin / 10), v);
       context.beginPath();
       context.arc(x, y, 5, 0, Math.PI * 2, false);
