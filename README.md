@@ -11,7 +11,7 @@ A randomised example of a linear plot, showing random exponential growth, while 
 
 # To start
 run 
-*npm i*
-*npm run dev* for hot reloading of the JS source folder
-*npm run build* to build the project
+: npm i :
+: npm run dev : for hot reloading of the JS source folder
+: npm run build : to build the project
 
