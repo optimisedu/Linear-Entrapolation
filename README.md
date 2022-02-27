@@ -14,4 +14,5 @@ A randomised example of a linear plot, showing random exponential growth, while 
 - npm i 
 - npm run dev : for hot reloading of the JS source folder
 - npm run build : to build the project
-
+- Todo - improve the readme markdown. Add project examples, do some degree of functional codesplitting.
+- Where aplicable add types
